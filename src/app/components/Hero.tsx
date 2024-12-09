@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import { FaAngleRight } from "react-icons/fa6";
 import Image from 'next/image';

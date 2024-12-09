@@ -4,6 +4,11 @@ import { SiHomeassistantcommunitystore } from "react-icons/si";
 import { AiOutlineDollarCircle } from "react-icons/ai";
 import { RiGiftFill } from "react-icons/ri";
 import { FaSackDollar } from "react-icons/fa6";
+import { config } from 'process';
+ 
+type pageProps={
+  [key:string]:any;
+};
 const page = () => {
   return ( 
     <div className=' max-w-[1440px] '>
@@ -31,7 +36,13 @@ const page = () => {
         </div>
       </div>
     </div>
+
   )
+  const pageProps:pageProps = {
+    page,
+    default:()=>{},
+    config:{},
+}
 }
 
 export default page
