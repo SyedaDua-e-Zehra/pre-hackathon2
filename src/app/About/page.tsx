@@ -50,7 +50,7 @@ export default page
 
 
 
-export const about1 = () => {
+export const about = () => {
   return (
     <div>
     <div className=' ml-[150px]'>
